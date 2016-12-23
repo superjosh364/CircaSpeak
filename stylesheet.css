@@ -1,6 +1,12 @@
-p {
-
-  color:blue;
-  font-family:Sans-Serif;
-
+body {
+        background-color:darkgray;
 }
+.rcorners {
+color:white;
+border-radius: 25px;
+background-color: #73ad21;
+padding: 20px;
+width: 1000px;
+height:40px;
+}
+
