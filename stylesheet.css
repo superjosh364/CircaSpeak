@@ -1,12 +1,19 @@
 body {
         background-color:darkgray;
 }
-.rcorners {
+.rcorners1 {
 color:white;
 border-radius: 25px;
 background-color: #73ad21;
 padding: 20px;
 width: 1000px;
 height:40px;
+}
+.rcorners2 {
+        background-color:white;
+        border-radius: 25px;
+        padding:"20px";
+        width:"1000px";
+        height:"100px";
 }
 
