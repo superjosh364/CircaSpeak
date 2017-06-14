@@ -1,17 +1,36 @@
-<html>
- <head>
-  
- <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/SDGCode/CircaSpeak/master/stylesheet.css">
-  <title>
-  CircaSpeak
-  </title>
-</head>
-<body>
- <p class="rcorners1">
- Welcome to the CircaSpeak testing grounds! Find our actual site over <a href="https://circaspeak.firebaseapp.com/">here</a>.
- </p>
-  <p class="rcorners2">
-                Test
-                </p>
-</body>
+
+<!DOCTYPE html>
+   <html>
+	<head>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+		<title>
+		CircaSpeak
+		</title>
+	</head>
+	<body>
+			<p id="title">
+				CircaSpeak
+			</p>
+			<p id="subTitle">
+				For your circles
+			</p>
+			<div class="rcorners1">
+                <div id="signIn">Sign in</div></br>
+                <button id='go' class="material-icons">play_arrow</button>
+                
+                <input id='txtEmail' placeholder="Username" type="text" style="border-width:2px"></input></br>
+				<input id = 'txtPassword' placeholder="Password" type="text" style="border-width:2px"></input>
+			</div>
+			<div class="rcorners2">
+				<em>What is CircaSpeak?</em> ...<br />
+				<div id= "info">CircaSpeak is (going to be) a fresh take on group chats. <br />
+				More than that, we're not going to say.
+                </div>
+			</div>
+		<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+		<script src="app.js"></script>		
+	</body>
 </html>
