@@ -9,6 +9,11 @@
 		<title>
 		CircaSpeak
 		</title>
+		<script type="text/javascript">
+			function signIn() {
+				window.location.href="/home.html";
+			}
+		</script>
 	</head>
 	<body>
 			<p id="title">
@@ -19,7 +24,7 @@
 			</p>
 			<div class="rcorners1">
                 <div id="signIn">Sign in</div></br>
-                <button id='go' class="material-icons">play_arrow</button>
+                <button id='go' class="material-icons" onclick="signIn();">play_arrow</button>
                 
                 <input id='txtEmail' placeholder="Username" type="text" style="border-width:2px"></input></br>
 				<input id = 'txtPassword' placeholder="Password" type="text" style="border-width:2px"></input>
