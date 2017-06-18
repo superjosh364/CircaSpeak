@@ -9,6 +9,16 @@
 		<title>
 		CircaSpeak
 		</title>
+		<script type="text/javascript">
+		function validateForm() {
+		if (document.getElementById("input1").value != "" && document.getElementById("input2".value != "") {
+document.cookie = "username=" + document.getElementById("input1").value + "; password=" + document.getElementById("input2").value;
+		window.location.href='/home.html';
+		}
+		else {
+			alert("You forgot some information!");
+		}
+				
 	</head>
 	<body>
 			<p id="title">
@@ -19,10 +29,10 @@
 			</p>
 			<div class="rcorners1">
                 <div id="signIn">Sign in</div></br>
-                <button id='go' class="material-icons" onclick="javascript:window.location.href='/home.html';">play_arrow</button>
+                <button id='go' class="material-icons" onclick="javascript:validateForm();">play_arrow</button>
                 
-                <input id='txtEmail' placeholder="Username" type="text" style="border-width:2px"></input></br>
-				<input id = 'txtPassword' placeholder="Password" type="text" style="border-width:2px"></input>
+                <input id='txtEmail' placeholder="Username" type="text" style="border-width:2px" id="input1"></input></br>
+		<input id = 'txtPassword' placeholder="Password" type="text" style="border-width:2px" id="input2"></input>
 			</div>
 			<div class="rcorners2">
 				<em>What is CircaSpeak?</em> ...<br />
