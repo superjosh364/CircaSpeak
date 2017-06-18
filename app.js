@@ -1,13 +1,14 @@
 (function () {
 	// Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyD85RBDL9lINYaJpngIUFjEb5IgAh0s7g4",
-        authDomain: "circaspeak.firebaseapp.com",
-        databaseURL: "https://circaspeak.firebaseio.com",
-        storageBucket: "circaspeak.appspot.com",
-        messagingSenderId: "809714208139"
-    };
-    firebase.initializeApp(config);
+  var config = {
+    apiKey: "AIzaSyBruAab2wpxy889uhdVLM0iA9mObGiXaHc",
+    authDomain: "circaspeak-testing.firebaseapp.com",
+    databaseURL: "https://circaspeak-testing.firebaseio.com",
+    projectId: "circaspeak-testing",
+    storageBucket: "circaspeak-testing.appspot.com",
+    messagingSenderId: "757191003463"
+  };
+  firebase.initializeApp(config);
 }());
 var auth = firebase.auth();
 var txtEmail = document.getElementById("txtEmail");
